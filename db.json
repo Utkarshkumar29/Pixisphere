@@ -1,0 +1,1317 @@
+{
+  "photographers": [
+    {
+      "id": 1,
+      "name": "Ravi Studio",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": [
+        "Outdoor",
+        "Studio"
+      ],
+      "tags": [
+        "Candid",
+        "Maternity"
+      ],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+      "profilePic": "/images/ravi.jpg",
+      "portfolio": [
+        "/images/portfolio1.jpg",
+        "/images/portfolio2.jpg"
+      ],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience!",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lens Queen Photography",
+      "location": "Delhi",
+      "price": 15000,
+      "rating": 4.2,
+      "styles": [
+        "Candid",
+        "Indoor"
+      ],
+      "tags": [
+        "Newborn",
+        "Birthday"
+      ],
+      "bio": "Delhi-based candid specialist for kids and birthday parties.",
+      "profilePic": "/images/lensqueen.jpg",
+      "portfolio": [
+        "/images/lens1.jpg",
+        "/images/lens2.jpg"
+      ],
+      "reviews": [
+        {
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Very professional and punctual!",
+          "date": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Click Factory",
+      "location": "Mumbai",
+      "price": 8000,
+      "rating": 4.8,
+      "styles": [
+        "Studio",
+        "Outdoor",
+        "Traditional"
+      ],
+      "tags": [
+        "Wedding",
+        "Pre-wedding"
+      ],
+      "bio": "Capturing timeless wedding stories across India.",
+      "profilePic": "/images/clickfactory.jpg",
+      "portfolio": [
+        "/images/wed1.jpg",
+        "/images/wed2.jpg"
+      ],
+      "reviews": [
+        {
+          "name": "Rahul",
+          "rating": 5,
+          "comment": "We loved every single moment they captured.",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Moments by Neha",
+      "location": "Bengaluru",
+      "price": 12000,
+      "rating": 4.3,
+      "styles": [
+        "Outdoor",
+        "Candid"
+      ],
+      "tags": [
+        "Maternity",
+        "Couple"
+      ],
+      "bio": "Natural light specialist focusing on emotional storytelling.",
+      "profilePic": "https://picsum.photos/200/300?random=4",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=107",
+        "https://picsum.photos/400/300?random=108"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "Snapshot Studio",
+      "location": "Hyderabad",
+      "price": 7000,
+      "rating": 3.9,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Birthday",
+        "Family"
+      ],
+      "bio": "Affordable indoor shoots with creative themes.",
+      "profilePic": "https://picsum.photos/200/300?random=5",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=109",
+        "https://picsum.photos/400/300?random=110"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "Creative Clicks",
+      "location": "Pune",
+      "price": 9000,
+      "rating": 4.4,
+      "styles": [
+        "Candid",
+        "Studio"
+      ],
+      "tags": [
+        "Fashion",
+        "Portfolio"
+      ],
+      "bio": "Stylish portraits and model shoots.",
+      "profilePic": "https://picsum.photos/200/300?random=6",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=111",
+        "https://picsum.photos/400/300?random=112"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "name": "The Storytellers",
+      "location": "Chennai",
+      "price": 18000,
+      "rating": 4.9,
+      "styles": [
+        "Traditional",
+        "Candid"
+      ],
+      "tags": [
+        "Wedding",
+        "Engagement"
+      ],
+      "bio": "Telling stories through the lens of emotion.",
+      "profilePic": "https://picsum.photos/200/300?random=7",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=113",
+        "https://picsum.photos/400/300?random=114"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "name": "Urban Lens",
+      "location": "Kolkata",
+      "price": 9500,
+      "rating": 3.8,
+      "styles": [
+        "Candid"
+      ],
+      "tags": [
+        "Street",
+        "Documentary"
+      ],
+      "bio": "City-based shoots with raw emotion.",
+      "profilePic": "https://picsum.photos/200/300?random=9",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=117",
+        "https://picsum.photos/400/300?random=118"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "name": "Frame Hunters",
+      "location": "Ahmedabad",
+      "price": 10500,
+      "rating": 4.5,
+      "styles": [
+        "Studio",
+        "Traditional"
+      ],
+      "tags": [
+        "Family",
+        "Ceremony"
+      ],
+      "bio": "Framing every family memory.",
+      "profilePic": "https://picsum.photos/200/300?random=10",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=119",
+        "https://picsum.photos/400/300?random=120"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 11,
+      "name": "Timeless Portraits",
+      "location": "Mumbai",
+      "price": 14000,
+      "rating": 4.7,
+      "styles": [
+        "Studio",
+        "Portrait"
+      ],
+      "tags": [
+        "Model",
+        "Editorial"
+      ],
+      "bio": "Bold and classic portraits for timeless memories.",
+      "profilePic": "https://picsum.photos/200/300?random=11",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=121",
+        "https://picsum.photos/400/300?random=122"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 12,
+      "name": "Shutter Pro",
+      "location": "Surat",
+      "price": 8800,
+      "rating": 4.0,
+      "styles": [
+        "Outdoor",
+        "Candid"
+      ],
+      "tags": [
+        "Maternity",
+        "Events"
+      ],
+      "bio": "Capturing your best side every time.",
+      "profilePic": "https://picsum.photos/200/300?random=12",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=123",
+        "https://picsum.photos/400/300?random=124"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 13,
+      "name": "Ever After",
+      "location": "Udaipur",
+      "price": 12500,
+      "rating": 4.3,
+      "styles": [
+        "Candid",
+        "Traditional"
+      ],
+      "tags": [
+        "Wedding",
+        "Engagement"
+      ],
+      "bio": "Fairy tale shoots for real-life love stories.",
+      "profilePic": "https://picsum.photos/200/300?random=13",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=125",
+        "https://picsum.photos/400/300?random=126"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 14,
+      "name": "Focus Frame",
+      "location": "Nagpur",
+      "price": 7300,
+      "rating": 3.7,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Baby",
+        "Pet"
+      ],
+      "bio": "Every cute frame matters.",
+      "profilePic": "https://picsum.photos/200/300?random=14",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=127",
+        "https://picsum.photos/400/300?random=128"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 15,
+      "name": "Inspire Lens",
+      "location": "Goa",
+      "price": 16500,
+      "rating": 4.6,
+      "styles": [
+        "Outdoor",
+        "Candid"
+      ],
+      "tags": [
+        "Couple",
+        "Travel"
+      ],
+      "bio": "Destination shoots with a creative twist.",
+      "profilePic": "https://picsum.photos/200/300?random=15",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=129",
+        "https://picsum.photos/400/300?random=130"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 16,
+      "name": "Pixel Vibes 27",
+      "location": "Delhi",
+      "price": 13200,
+      "rating": 4.4,
+      "styles": [
+        "Candid",
+        "Traditional"
+      ],
+      "tags": [
+        "Wedding",
+        "Events"
+      ],
+      "bio": "Framing every emotion and story.",
+      "profilePic": "https://picsum.photos/200/300?random=1",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=101",
+        "https://picsum.photos/400/300?random=102"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Aditi Sharma",
+          "rating": 5,
+          "comment": "Loved the pictures, very natural and emotional!"
+        },
+        {
+          "reviewer": "Rohan Malhotra",
+          "rating": 4,
+          "comment": "Great work, a bit delayed delivery though."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Shutter Bliss 42",
+      "location": "Mumbai",
+      "price": 14500,
+      "rating": 4.7,
+      "styles": [
+        "Studio",
+        "Outdoor"
+      ],
+      "tags": [
+        "Couple",
+        "Pre-wedding"
+      ],
+      "bio": "Capturing life's best moments with elegance.",
+      "profilePic": "https://picsum.photos/200/300?random=2",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=103",
+        "https://picsum.photos/400/300?random=104"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Sneha Patil",
+          "rating": 5,
+          "comment": "Made us feel comfortable, the pre-wedding shoot was amazing!"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Dream Lens 91",
+      "location": "Bengaluru",
+      "price": 9100,
+      "rating": 4.0,
+      "styles": [
+        "Outdoor"
+      ],
+      "tags": [
+        "Maternity",
+        "Family"
+      ],
+      "bio": "Creating timeless memories through the lens.",
+      "profilePic": "https://picsum.photos/200/300?random=3",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=105",
+        "https://picsum.photos/400/300?random=106"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Neha Verma",
+          "rating": 4,
+          "comment": "Great location suggestions and warm vibes!"
+        },
+        {
+          "reviewer": "Ajay Nair",
+          "rating": 3.5,
+          "comment": "Good overall, just expected a few more edited photos."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "FocusNest 12",
+      "location": "Hyderabad",
+      "price": 17400,
+      "rating": 4.9,
+      "styles": [
+        "Portrait"
+      ],
+      "tags": [
+        "Fashion",
+        "Editorial"
+      ],
+      "bio": "Artistry in every click.",
+      "profilePic": "https://picsum.photos/200/300?random=4",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=107",
+        "https://picsum.photos/400/300?random=108"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Maya Pillai",
+          "rating": 5,
+          "comment": "Perfect lighting and style. Highly professional."
+        },
+        {
+          "reviewer": "Dev Mehra",
+          "rating": 5,
+          "comment": "Editorial shots came out like magazine covers!"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Golden Shutter 38",
+      "location": "Goa",
+      "price": 10900,
+      "rating": 3.9,
+      "styles": [
+        "Indoor"
+      ],
+      "tags": [
+        "Birthday",
+        "Family"
+      ],
+      "bio": "Snap your best moments with style.",
+      "profilePic": "https://picsum.photos/200/300?random=5",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=109",
+        "https://picsum.photos/400/300?random=110"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Kabir Das",
+          "rating": 4,
+          "comment": "Color themes were beautiful, will book again!"
+        },
+        {
+          "reviewer": "Ria Saxena",
+          "rating": 3.5,
+          "comment": "Nice indoor shoot but lighting setup took too long."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Lens Logic 312",
+      "location": "Mumbai",
+      "price": 13200,
+      "rating": 4.3,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Maternity",
+        "Fashion"
+      ],
+      "bio": "Professional and passionate about photography.",
+      "profilePic": "https://picsum.photos/200/300?random=7",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=113",
+        "https://picsum.photos/400/300?random=114"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Ria Saxena",
+          "rating": 4,
+          "comment": "Great indoor lighting setup and vibes."
+        },
+        {
+          "reviewer": "Nikhil Bansal",
+          "rating": 4.5,
+          "comment": "Quick delivery and sharp images!"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Candid Souls 659",
+      "location": "Jaipur",
+      "price": 10100,
+      "rating": 4.0,
+      "styles": [
+        "Candid"
+      ],
+      "tags": [
+        "Couple",
+        "Birthday"
+      ],
+      "bio": "Authentic, emotional, and beautiful photography.",
+      "profilePic": "https://picsum.photos/200/300?random=9",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=117",
+        "https://picsum.photos/400/300?random=118"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Zoya Khan",
+          "rating": 4.1,
+          "comment": "Perfect for our kid's birthday — fun and friendly team!"
+        },
+        {
+          "reviewer": "Dev Mehra",
+          "rating": 3.9,
+          "comment": "Few shots were out of focus but overall good."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "LightCraft 533",
+      "location": "Goa",
+      "price": 17000,
+      "rating": 4.7,
+      "styles": [
+        "Outdoor"
+      ],
+      "tags": [
+        "Wedding",
+        "Couple"
+      ],
+      "bio": "Capturing moments that matter.",
+      "profilePic": "https://picsum.photos/200/300?random=10",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=119",
+        "https://picsum.photos/400/300?random=120"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Anjali Rao",
+          "rating": 5,
+          "comment": "Our beach shoot looked straight out of a magazine!"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "The Frame Lounge 410",
+      "location": "Hyderabad",
+      "price": 8500,
+      "rating": 3.8,
+      "styles": [
+        "Portrait"
+      ],
+      "tags": [
+        "Fashion",
+        "Editorial"
+      ],
+      "bio": "Stylish portraits done right.",
+      "profilePic": "https://picsum.photos/200/300?random=11",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=121",
+        "https://picsum.photos/400/300?random=122"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Rohan Malhotra",
+          "rating": 4,
+          "comment": "Loved the editorial look. Sharp and elegant!"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Urban Clicks 599",
+      "location": "Surat",
+      "price": 9900,
+      "rating": 4.2,
+      "styles": [
+        "Candid",
+        "Studio"
+      ],
+      "tags": [
+        "Family",
+        "Maternity"
+      ],
+      "bio": "Making you smile in every shot.",
+      "profilePic": "https://picsum.photos/200/300?random=12",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=123",
+        "https://picsum.photos/400/300?random=124"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Aditi Sharma",
+          "rating": 4.2,
+          "comment": "Really made my family feel comfortable during the session."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Snapshot Square 874",
+      "location": "Nagpur",
+      "price": 8800,
+      "rating": 3.9,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Birthday",
+        "Events"
+      ],
+      "bio": "Colorful and creative indoor sessions.",
+      "profilePic": "https://picsum.photos/200/300?random=13",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=125",
+        "https://picsum.photos/400/300?random=126"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Kabir Das",
+          "rating": 3.8,
+          "comment": "Studio was a bit cramped but photos were good quality."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "InstaCaptures 323",
+      "location": "Chennai",
+      "price": 14200,
+      "rating": 4.4,
+      "styles": [
+        "Outdoor",
+        "Candid"
+      ],
+      "tags": [
+        "Pre-wedding",
+        "Travel"
+      ],
+      "bio": "Beautiful captures under natural light.",
+      "profilePic": "https://picsum.photos/200/300?random=14",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=127",
+        "https://picsum.photos/400/300?random=128"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Zoya Khan",
+          "rating": 4.6,
+          "comment": "Amazing light and nature-based frames!"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Flash Foundry 911",
+      "location": "Udaipur",
+      "price": 16000,
+      "rating": 4.8,
+      "styles": [
+        "Traditional",
+        "Studio"
+      ],
+      "tags": [
+        "Wedding",
+        "Ceremony"
+      ],
+      "bio": "Cultural elegance, captured forever.",
+      "profilePic": "https://picsum.photos/200/300?random=15",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=129",
+        "https://picsum.photos/400/300?random=130"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Sneha Patil",
+          "rating": 5,
+          "comment": "Our ceremony was so beautifully documented. Thank you!"
+        },
+        {
+          "reviewer": "Yash Kapoor",
+          "rating": 4.7,
+          "comment": "Perfect edits and vibrant colors."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Frame Freaks 762",
+      "location": "Delhi",
+      "price": 9700,
+      "rating": 4.3,
+      "styles": [
+        "Outdoor",
+        "Traditional"
+      ],
+      "tags": [
+        "Wedding",
+        "Ceremony"
+      ],
+      "bio": "Blending creativity with emotion in every frame.",
+      "profilePic": "https://picsum.photos/200/300?random=16",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=131",
+        "https://picsum.photos/400/300?random=132"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Aditi Sharma",
+          "rating": 4.5,
+          "comment": "Captured our rituals beautifully with attention to detail."
+        },
+        {
+          "reviewer": "Rohan Malhotra",
+          "rating": 4,
+          "comment": "Loved the edits and prompt delivery."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Candid Nook 411",
+      "location": "Mumbai",
+      "price": 11900,
+      "rating": 4.1,
+      "styles": [
+        "Candid"
+      ],
+      "tags": [
+        "Family",
+        "Birthday"
+      ],
+      "bio": "Celebrating candid moments with a smile.",
+      "profilePic": "https://picsum.photos/200/300?random=17",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=133",
+        "https://picsum.photos/400/300?random=134"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Zoya Khan",
+          "rating": 4,
+          "comment": "Great candid moments, especially of the kids!"
+        },
+        {
+          "reviewer": "Dev Mehra",
+          "rating": 4.2,
+          "comment": "Good angles and lots of smiley shots."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "LensVerse 129",
+      "location": "Bengaluru",
+      "price": 14600,
+      "rating": 4.6,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Fashion",
+        "Maternity"
+      ],
+      "bio": "Styled shoots with elegance and flair.",
+      "profilePic": "https://picsum.photos/200/300?random=18",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=135",
+        "https://picsum.photos/400/300?random=136"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Tina Roy",
+          "rating": 4.7,
+          "comment": "Stunning lighting and posture guidance was excellent."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Snaps & Stories 864",
+      "location": "Goa",
+      "price": 17500,
+      "rating": 4.9,
+      "styles": [
+        "Candid",
+        "Outdoor"
+      ],
+      "tags": [
+        "Couple",
+        "Pre-wedding"
+      ],
+      "bio": "Visual storytellers for couples in love.",
+      "profilePic": "https://picsum.photos/200/300?random=19",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=137",
+        "https://picsum.photos/400/300?random=138"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Anjali Rao",
+          "rating": 5,
+          "comment": "Captured our candid moments in the most dreamy way!"
+        },
+        {
+          "reviewer": "Sneha Patil",
+          "rating": 4.9,
+          "comment": "Sunset shots were magical. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Portrait Crew 552",
+      "location": "Hyderabad",
+      "price": 10400,
+      "rating": 4.2,
+      "styles": [
+        "Portrait",
+        "Studio"
+      ],
+      "tags": [
+        "Fashion",
+        "Editorial"
+      ],
+      "bio": "Fine art portraiture that speaks volumes.",
+      "profilePic": "https://picsum.photos/200/300?random=20",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=139",
+        "https://picsum.photos/400/300?random=140"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Nikhil Bansal",
+          "rating": 4.3,
+          "comment": "Excellent control of lighting. Very impressed!"
+        },
+        {
+          "reviewer": "Maya Pillai",
+          "rating": 4.0,
+          "comment": "Studio vibes were on point. Good poses too."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "ClickNest 948",
+      "location": "Udaipur",
+      "price": 8800,
+      "rating": 3.9,
+      "styles": [
+        "Indoor"
+      ],
+      "tags": [
+        "Birthday",
+        "Family"
+      ],
+      "bio": "Indoor shoots with cozy and creative themes.",
+      "profilePic": "https://picsum.photos/200/300?random=21",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=141",
+        "https://picsum.photos/400/300?random=142"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Ria Saxena",
+          "rating": 4.0,
+          "comment": "Lovely backdrops and fun props for the kids."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Magic Pixels 723",
+      "location": "Surat",
+      "price": 9300,
+      "rating": 4.4,
+      "styles": [
+        "Outdoor",
+        "Candid"
+      ],
+      "tags": [
+        "Travel",
+        "Events"
+      ],
+      "bio": "Adventure meets artistry with every snap.",
+      "profilePic": "https://picsum.photos/200/300?random=22",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=143",
+        "https://picsum.photos/400/300?random=144"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Kabir Das",
+          "rating": 4.5,
+          "comment": "Mountain shots during our trip were epic!"
+        },
+        {
+          "reviewer": "Ajay Nair",
+          "rating": 4.2,
+          "comment": "On-time, energetic and adventurous."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Focus & Found 368",
+      "location": "Chennai",
+      "price": 11500,
+      "rating": 4.0,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Fashion",
+        "Maternity"
+      ],
+      "bio": "Bold and confident portraits with a smile.",
+      "profilePic": "https://picsum.photos/200/300?random=23",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=145",
+        "https://picsum.photos/400/300?random=146"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Priya Sen",
+          "rating": 4.1,
+          "comment": "Helped me pose like a model!"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Lightworks Studio 872",
+      "location": "Nagpur",
+      "price": 10800,
+      "rating": 4.5,
+      "styles": [
+        "Traditional",
+        "Outdoor"
+      ],
+      "tags": [
+        "Wedding",
+        "Ceremony"
+      ],
+      "bio": "Where light meets legacy and tradition.",
+      "profilePic": "https://picsum.photos/200/300?random=24",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=147",
+        "https://picsum.photos/400/300?random=148"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Yash Kapoor",
+          "rating": 4.6,
+          "comment": "Excellent coverage of rituals and candid family moments."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "The Snap Trail 690",
+      "location": "Jaipur",
+      "price": 12400,
+      "rating": 4.3,
+      "styles": [
+        "Candid"
+      ],
+      "tags": [
+        "Events",
+        "Family"
+      ],
+      "bio": "Every snap tells a story.",
+      "profilePic": "https://picsum.photos/200/300?random=25",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=149",
+        "https://picsum.photos/400/300?random=150"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Tina Roy",
+          "rating": 4.3,
+          "comment": "Captured every small family moment beautifully!"
+        },
+        {
+          "reviewer": "Neha Verma",
+          "rating": 4.2,
+          "comment": "Fast editing and friendly photographer."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "FrameCraft 839",
+      "location": "Mumbai",
+      "price": 9800,
+      "rating": 4.4,
+      "styles": [
+        "Candid",
+        "Studio"
+      ],
+      "tags": [
+        "Birthday",
+        "Fashion"
+      ],
+      "bio": "Crafting each frame with purpose and personality.",
+      "profilePic": "https://picsum.photos/200/300?random=39",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=179",
+        "https://picsum.photos/400/300?random=180"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Rohan Malhotra",
+          "rating": 4.4,
+          "comment": "Loved the modern studio setup and quick delivery."
+        },
+        {
+          "reviewer": "Sneha Patil",
+          "rating": 4.5,
+          "comment": "Perfect candid captures for my daughter’s birthday."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Golden Angle 402",
+      "location": "Delhi",
+      "price": 10900,
+      "rating": 4.2,
+      "styles": [
+        "Traditional"
+      ],
+      "tags": [
+        "Wedding",
+        "Engagement"
+      ],
+      "bio": "Delivering traditions with elegance and detail.",
+      "profilePic": "https://picsum.photos/200/300?random=40",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=181",
+        "https://picsum.photos/400/300?random=182"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Priya Sen",
+          "rating": 4.2,
+          "comment": "Every moment from the ceremony was beautifully preserved."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Urban Vision 511",
+      "location": "Bengaluru",
+      "price": 12200,
+      "rating": 4.6,
+      "styles": [
+        "Outdoor"
+      ],
+      "tags": [
+        "Travel",
+        "Couple"
+      ],
+      "bio": "Capturing city love stories with edge and light.",
+      "profilePic": "https://picsum.photos/200/300?random=41",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=183",
+        "https://picsum.photos/400/300?random=184"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Aditi Sharma",
+          "rating": 4.6,
+          "comment": "Their Goa shoot made our pre-wedding magical."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "ClickVerse 902",
+      "location": "Chennai",
+      "price": 9500,
+      "rating": 4.1,
+      "styles": [
+        "Studio"
+      ],
+      "tags": [
+        "Maternity",
+        "Family"
+      ],
+      "bio": "Maternity moments turned into lifelong memories.",
+      "profilePic": "https://picsum.photos/200/300?random=42",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=185",
+        "https://picsum.photos/400/300?random=186"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Zoya Khan",
+          "rating": 4.1,
+          "comment": "Very thoughtful and supportive during our shoot."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "ShutterSync 278",
+      "location": "Goa",
+      "price": 16800,
+      "rating": 4.7,
+      "styles": [
+        "Outdoor",
+        "Candid"
+      ],
+      "tags": [
+        "Pre-wedding",
+        "Travel"
+      ],
+      "bio": "Your candid escape into love and light.",
+      "profilePic": "https://picsum.photos/200/300?random=43",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=187",
+        "https://picsum.photos/400/300?random=188"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Yash Kapoor",
+          "rating": 4.7,
+          "comment": "Took us to scenic spots we never knew existed!"
+        },
+        {
+          "reviewer": "Dev Mehra",
+          "rating": 4.5,
+          "comment": "Amazing sunset shoot at Chapora Fort."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Portrait Pulse 366",
+      "location": "Hyderabad",
+      "price": 8600,
+      "rating": 4.0,
+      "styles": [
+        "Portrait"
+      ],
+      "tags": [
+        "Editorial",
+        "Model"
+      ],
+      "bio": "Pulsing energy into every frame and shadow.",
+      "profilePic": "https://picsum.photos/200/300?random=44",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=189",
+        "https://picsum.photos/400/300?random=190"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Tina Roy",
+          "rating": 4.0,
+          "comment": "Perfect shots for my fashion blog!"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "SnapFlick 615",
+      "location": "Nagpur",
+      "price": 7900,
+      "rating": 3.9,
+      "styles": [
+        "Studio",
+        "Traditional"
+      ],
+      "tags": [
+        "Wedding",
+        "Baby"
+      ],
+      "bio": "Simple, sharp, and sentimental shots.",
+      "profilePic": "https://picsum.photos/200/300?random=45",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=191",
+        "https://picsum.photos/400/300?random=192"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Ajay Nair",
+          "rating": 3.9,
+          "comment": "Decent work for the price. Great with kids."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Emotion Pixels 432",
+      "location": "Udaipur",
+      "price": 13900,
+      "rating": 4.6,
+      "styles": [
+        "Candid",
+        "Outdoor"
+      ],
+      "tags": [
+        "Wedding",
+        "Engagement"
+      ],
+      "bio": "Because emotions deserve perfect pixels.",
+      "profilePic": "https://picsum.photos/200/300?random=46",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=193",
+        "https://picsum.photos/400/300?random=194"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Neha Verma",
+          "rating": 4.6,
+          "comment": "Best candid shots I’ve ever had. Period."
+        },
+        {
+          "reviewer": "Ria Saxena",
+          "rating": 4.5,
+          "comment": "Great angles and emotional captures."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "DreamShades 710",
+      "location": "Jaipur",
+      "price": 11000,
+      "rating": 4.2,
+      "styles": [
+        "Traditional",
+        "Studio"
+      ],
+      "tags": [
+        "Ceremony",
+        "Maternity"
+      ],
+      "bio": "Shading dreams into vibrant visuals.",
+      "profilePic": "https://picsum.photos/200/300?random=47",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=195",
+        "https://picsum.photos/400/300?random=196"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Kabir Das",
+          "rating": 4.2,
+          "comment": "Used amazing props and colors!"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "FlashWings 333",
+      "location": "Surat",
+      "price": 12600,
+      "rating": 4.3,
+      "styles": [
+        "Candid"
+      ],
+      "tags": [
+        "Events",
+        "Couple"
+      ],
+      "bio": "Let your story fly with every flash.",
+      "profilePic": "https://picsum.photos/200/300?random=48",
+      "portfolio": [
+        "https://picsum.photos/400/300?random=197",
+        "https://picsum.photos/400/300?random=198"
+      ],
+      "reviews": [
+        {
+          "reviewer": "Zoya Khan",
+          "rating": 4.3,
+          "comment": "Beautiful, heartfelt moments caught on camera."
+        }
+      ]
+    }
+  ]
+}
