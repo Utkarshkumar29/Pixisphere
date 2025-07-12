@@ -1,3 +1,4 @@
+'use client'
 import explore from "../../public/explore.png"
 import dots from "../../public/dots.png"
 import Image from "next/image";

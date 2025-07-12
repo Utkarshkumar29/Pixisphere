@@ -1,58 +1,50 @@
 "use client";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useRouter } from "next/navigation";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { useDispatch } from "react-redux";
-import { setSelectedPhotographer } from "../../redux/photographerSlice";
-import CategoryLoader from "../CategoryLoader"
-import LoaderGrid from "../LoaderGrid"
+import LoaderGrid from "../LoaderGrid";
+import PhotographerCard from "../PhotographerCard";
 
 export default function CategoryListing({ filters }) {
   const [photographers, setPhotographers] = useState([]);
   const [filteredPhotographers, setFilteredPhotographers] = useState([]);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
-  const router = useRouter();
-  const dispatch = useDispatch();
-  const [isLoading,setIsLoading]=useState(false)
+  const [isLoading, setIsLoading] = useState(false);
 
   const fetchData = async (pageNumber = 1) => {
-  try {
-    setIsLoading(true);
-    const res = await axios.get(
-      `http://localhost:3001/photographers?_page=${pageNumber}&_limit=9`,
-      {
-        headers: { Accept: "application/json" },
-      }
-    );
-
-    // adding delay so that skeleton is visible
-    setTimeout(() => {
-      const newPhotographers = res.data;
-      const totalCount = parseInt(res.headers["x-total-count"]);
-      const pages = Math.ceil(totalCount / 9);
-
-      setPhotographers((prev) =>
-        pageNumber === 1 ? newPhotographers : [...prev, ...newPhotographers]
+    try {
+      setIsLoading(true);
+      const res = await axios.get(
+        `http://localhost:3001/photographers?_page=${pageNumber}&_limit=9`,
+        {
+          headers: { Accept: "application/json" },
+        }
       );
 
-      if (pageNumber === 1) {
-        setFilteredPhotographers(newPhotographers);
-      } else {
-        setFilteredPhotographers((prev) => [...prev, ...newPhotographers]);
-      }
+      // Optional delay for loader visibility
+      setTimeout(() => {
+        const newPhotographers = res.data;
+        const totalCount = parseInt(res.headers["x-total-count"]);
+        const pages = Math.ceil(totalCount / 9);
 
-      setTotalPages(pages);
-      setPage(pageNumber + 1);
-    }, 1000);
-  } catch (err) {
-    console.error("Error fetching photographers:", err);
-  } finally {
-    setIsLoading(false);
-  }
-};
+        setPhotographers((prev) =>
+          pageNumber === 1 ? newPhotographers : [...prev, ...newPhotographers]
+        );
 
+        setFilteredPhotographers((prev) =>
+          pageNumber === 1 ? newPhotographers : [...prev, ...newPhotographers]
+        );
+
+        setTotalPages(pages);
+        setPage(pageNumber + 1);
+      }, 500);
+    } catch (err) {
+      console.error("Error fetching photographers:", err);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   useEffect(() => {
     fetchData(1);
@@ -101,40 +93,21 @@ export default function CategoryListing({ filters }) {
   }, [filters, photographers]);
 
   return (
-    <div className="w-full  mt-2">
+    <div className="w-full mt-2">
       <InfiniteScroll
         dataLength={photographers.length}
         hasMore={page <= totalPages}
         next={() => fetchData(page)}
-        loader={<LoaderGrid/>}
+        loader={<LoaderGrid />}
         endMessage={
-          photographers.length==0 && <p className="text-center py-4 text-gray-400">No more results</p>
+          photographers.length === 0 && (
+            <p className="text-center py-4 text-gray-400">No more results</p>
+          )
         }
       >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           {filteredPhotographers.map((p) => (
-            <div
-              key={p.id}
-              className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition w-full cursor-pointer"
-              onClick={() => {
-                dispatch(setSelectedPhotographer(p));
-                router.push(`pages/photographer/${p.id}`);
-              }}
-            >
-              <img
-                src={p.profilePic}
-                alt={p.name}
-                className="w-full h-48 object-cover rounded-md mb-2"
-              />
-              <h3 className="text-lg font-semibold">{p.name}</h3>
-              <p className="text-sm text-gray-600">{p.location}</p>
-              <p className="text-sm">
-                ₹{p.price} | ⭐ {p.rating}
-              </p>
-              <p className="text-sm mt-1 text-gray-500">
-                {p.styles.join(", ")}
-              </p>
-            </div>
+            <PhotographerCard key={p.id} photographer={p} />
           ))}
         </div>
       </InfiniteScroll>
