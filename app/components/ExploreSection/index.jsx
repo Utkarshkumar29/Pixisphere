@@ -1,5 +1,5 @@
-import explore from "../../public/explore.jpg"
-import dots from "../../public/dots.avif"
+import explore from "../../public/explore.png"
+import dots from "../../public/dots.png"
 import Image from "next/image";
 
 const ExploreSection = () => {
