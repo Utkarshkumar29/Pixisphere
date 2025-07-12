@@ -1,5 +1,4 @@
 'use client'
-import Image from "next/image";
 import LandingPage from "./pages/index"
 import { Provider } from "react-redux";
 import { store } from "./redux/store"
