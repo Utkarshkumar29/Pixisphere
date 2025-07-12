@@ -1,25 +1,31 @@
-"use client";
+"use client"
+import { useEffect, useState } from "react"
 
 const SearchBar = ({ setFilters }) => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const keyword = e.target.value.trim().toLowerCase();
+  const [query, setQuery] = useState("")
 
-    setFilters((prev) => ({
-      ...prev,
-      searchQuery: keyword,
-    }));
-  };
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setFilters((prev) => ({
+        ...prev,
+        searchQuery: query.toLowerCase().trim(),
+      }))
+    }, 300)
+
+    return () => clearTimeout(delay)
+  }, [query])
 
   return (
-    <form onChange={handleSubmit} className="w-full ">
+    <div className="w-full">
       <input
         name="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
         placeholder="Search by name, location, or tag"
         className="border px-4 py-2 rounded-lg w-full"
       />
-    </form>
-  );
-};
+    </div>
+  )
+}
 
-export default SearchBar;
+export default SearchBar
